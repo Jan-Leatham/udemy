@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Galerie-MTM21</title>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css-files/galerie.css" />
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navbar-item-container">
+        <a href="start.html" class="navbar-link">Home</a>
+        <a href="galerie.html" class="navbar-link active">Galerie</a>
+        <a href="kunden.html" class="navbar-link">Kunden</a>
+        <a href="aboutus.html" class="navbar-link">About Us</a>
+      </div>
+    </div>
+    <br />
+    <div id="start" class="title-container col-sm-11 col-10 col-l-8">
+      <h1>Willkommen Teilnehmer</h1>
+      <a href="#end">
+        <button class="galerie-end-button btn-full">
+          Ans Ende der Galerie
+        </button>
+      </a>
+    </div>
+    <br />
+    <div class="galerie-content-container col-sm-11 col-10 col-l-8">
+      <div class="galerie-content row">
+        <div class="galerie-img-item galerie-item float col-l-4">
+          <img
+            src="https://via.placeholder.com/150/150"
+            alt="..."
+            width="200"
+          />
+          <p>
+            <cite>Das Bild ist 150 hoch und 150 lang </cite> Via
+            <a href="https://placeholder.com">placeholder.com</a>
+          </p>
+        </div>
+        <div class="galerie-item float col-l-4 galerie-img-itm">
+          <picture>
+            <source
+              srcset="../media-files/Instagram-logo.png"
+              media="all"
+              type="png"
+            />
+            <img
+              src="../media-files/Instagram-logo.png"
+              width="350"
+              alt="..."
+            />
+          </picture>
+          <p><cite>Das Bild 350x350</cite> Via Filesystem</p>
+        </div>
+        <div class="galerie-img-item galerie-item float col-l-4">
+          <img
+            src="https://via.placeholder.com/300/300"
+            alt="..."
+            height="300"
+          />
+          <p>
+            <cite>Das Bild 300x300</cite> Via
+            <a href="https://placeholder.com">placeholder.com</a>
+          </p>
+        </div>
+        <div class="galerie-item float col-l-4 galerie-audio-item">
+          <audio controls muted>
+            <source
+              src="../media-files/file_example_MP3_700KB.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <p>
+            <cite>Die Musik mp3</cite> Via
+            <a
+              href="https://file-examples.com/storage/fe04183d33637128a9c93a7/2017/11/file_example_MP3_700KB.mp3"
+            >
+              https://file-examples.com</a
+            >
+          </p>
+        </div>
+        <div class="galerie-item float col-l-4 galerie-video-item">
+          <video width="250" controls muted>
+            <source
+              src="../media-files/file_example_MP4_480_1_5MG.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <p>
+            <cite>Die Video mp4</cite> Via
+            <a
+              href="https://file-examples.com/storage/fe04183d33637128a9c93a7/2017/04/file_example_MP4_480_1_5MG.mp4"
+            >
+              https://file-examples.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div id="end" class="galerie-end-container col-l-7 col-7 col-sm-7">
+      <h4>Du hast <strong>Das Ende</strong> der Galerie <i>erreicht</i></h4>
+      <a href="#start">
+        <button class="galerie-start-button btn-full">
+          An den Anfang der Galerie
+        </button>
+      </a>
+    </div>
+    <br />
+  </body>
+</html>
