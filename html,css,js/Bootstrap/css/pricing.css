@@ -1,0 +1,32 @@
+body {
+  color: whitesmoke;
+  background: url("../media-files/52f61nfzmwl51.jpg") no-repeat center fixed;
+}
+
+.login-container {
+  background-color: #151518;
+  padding: 20px;
+  color: #a8a8a8;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.pricing-container {
+  color: #1b1c1f;
+}
+
+.pricing-modal {
+  color: #1b1c1f;
+}
+
+.card-content:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  box-shadow: 5px 3px 10px #2d2d2d;
+}
+
+.title {
+  font-size: xxx-large;
+}
